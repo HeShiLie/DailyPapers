@@ -1,14 +1,23 @@
 
 
 ---
+# Infra
+## 移动端
+- [ ] [[HF-0422#30-`2604.19642`-`Micro Language Models Enable Instant Responses`]]
+
+# Data Selection
+- [ ] [[HF-0422#16-`2604.15706`-`Target-Oriented Pretraining Data Selection via Neuron-Activated Graph`]]
 # 解释/改进 Transformer/attn机制
 
 ## 解释
 ## attn sink
 - [ ] [[HF-0414#3-AttentionSinkSurvey-Attention Sink in Transformers A Survey on Utilization, Interpretation, and Mitigation]]
-
+## 任务算术 task arithmetic
+- [ ] [[HF-0422#11-`2604.17078`-`Understanding and Enforcing Weight Disentanglement in Task Arithmetic`]]
 ## 改进
-- [ ] 
+### 改进 PEFT
+- [ ] [[HF-0422#7-`2604.19254`-`ShadowPEFT Shadow Network for Parameter-Efficient Fine-Tuning`]]
+- [ ] [[HF-0422#18-`2604.19321`-`RDP LoRA Geometry-Driven Identification for Parameter-Efficient Adaptation in Large Language Models`]]
 
 ---
 
@@ -43,6 +52,9 @@
 ### Editing
 ##### Image Editing
 - [ ] [[HF-0327#15-Representation Alignment for Just Image Transformers is not Easier than You Think]]
+###### with reward model
+- [ ] 【使用了NFT做后训练，VLM进行euristic设计】[[HF-0422#10-`2604.19587`-`SmartPhotoCrafter Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing`]]
+- [ ] 【训练个HPscore打分器，并且以其作为数据引擎】[[HF-0422#20-`2604.19406`-`HP-Edit A Human-Preference Post-Training Framework for Image Editing`]]
 
 ## AR Video/Image Gen
 
@@ -55,6 +67,8 @@
 ### 做小/快
 - [ ] [[HF-0326#16-`2603.18742`-`6Bit-Diffusion Inference-Time Mixed-Precision Quantization for Video Diffusion Models`]]
 - [ ] 【一步生成；支持更复杂的文本】[[HF-0421#1-`2604.18168`-`Extending One-Step Image Generation from Class Labels to Text via Discriminative Text Representation`]]
+#### 利用推测解码的思想
+- [ ] [[HF-0422#15-`2604.17397`-`Speculative Decoding for Autoregressive Video Generation`]]
 
 ### 做长：
 #### Forcing系
@@ -69,6 +83,7 @@
 
 ### WM memory
 - [ ] [[HF-0330#1-`2603.25716`-`Out of Sight but Not Out of Mind Hybrid Memory for Dynamic Video World Models`]]
+- [ ] 【现实地理坐标做个rag】[[HF-0422#14-`2604.19741`-`CityRAG Stepping Into a City via Spatially-Grounded Video Generation`]]
 
 ### Multi-Agent
 - [ ] [[HF-0421#5-`2604.18564`-`MultiWorld Scalable Multi-Agent Multi-View Video World Models`]]
@@ -91,8 +106,6 @@
 
 ---
 # 理解方向
-
-
 ## LLM/VLM
 
 ### 与传统CV
@@ -107,7 +120,7 @@
 ### Reasoning
 - [ ] [[HF-0413#24-RobustReasoningBenchmark-Robust Reasoning Benchmark]]
 - [ ] 【解释Reasoning】[[HF-0326#21-`2603.23539`-`PLDR-LLMs Reason At Self-Organized Criticality`]]
-
+- [ ] 【解释CoT为什么会损害多模态理解能力】[[HF-0422#35-`2604.16060`-`Chain-of-Thought Degrades Visual Spatial Reasoning Capabilities of Multimodal LLMs`]]
 ### Speculative Decoding
 - [ ] [[HF-0413#27-Cactus-Cactus Accelerating Auto-Regressive Decoding with Constrained Acceptance Speculative Sampling]]
 - [ ] [[HF-0331#1-TAPS-Task Aware Proposal Distributions for Speculative Sampling]]
@@ -182,7 +195,7 @@
 - [ ] [[HF-0331#28-Density-aware Soft Context Compression with Semi-Dynamic Compression Ratio]]
 - [ ] [[HF-0421#17-`2604.17091`-`GenericAgent A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)`]]
 - [ ] 
-### Multi-Agent
+### Agent
 #### Sub-Agent
 - [ ] [[HF-0414#17-AgenticAggregation-Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks]]
 - [ ] [[HF-0331#4-Emergent Social Intelligence Risks in Generative Multi-Agent Systems]]
@@ -201,6 +214,10 @@
 - [ ] 【结构化Deep Research】[[HF-0420#7-`2604.14518`-`Mind DeepResearch Technical Report`]]
 - [ ] 【technich report】[[HF-0331#24-KAT-Coder-V2 Technical Report]]
 - [ ] 【如何给每个工具一个SOP】[[HF-0421#31-`2604.17886`-`Latent Preference Modeling for Cross-Session Personalized Tool Calling`]]
+- [ ] 【Agent as a judge】[[HF-0422#9-`2604.18240`-`AJ-Bench Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation`]]
+#### 进化(有点像bad case analysis)
+- [ ] [[HF-0422#29-`2604.19341`-`Evaluation-driven Scaling for Scientific Discovery`]]
+- [ ] [[HF-0422#24-`2604.19440`-`What Makes an LLM a Good Optimizer? A Trajectory Analysis of LLM-Guided Evolutionary Search`]]
 #### Bench
 - [ ] [[HF-0326#1-`2603.24440`-`CUA-Suite Massive Human-annotated Video Demonstrations for Computer-Use Agents`]]
 
