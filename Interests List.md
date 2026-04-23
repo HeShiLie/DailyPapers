@@ -55,6 +55,7 @@
 ###### with reward model
 - [ ] 【使用了NFT做后训练，VLM进行euristic设计】[[HF-0422#10-`2604.19587`-`SmartPhotoCrafter Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing`]]
 - [ ] 【训练个HPscore打分器，并且以其作为数据引擎】[[HF-0422#20-`2604.19406`-`HP-Edit A Human-Preference Post-Training Framework for Image Editing`]]
+- [ ] 【显式reasoning的RM, 相当于用LLM给人类偏好对扩写了理由】[[HF-0416#3-RationalRewards-RationalRewards Reasoning Rewards Scale Visual Generation Both Training and Test Time]]
 
 ## AR Video/Image Gen
 
@@ -146,7 +147,8 @@
 - [ ] [[HF-0421#21-`2604.18131`-`Training LLM Agents for Spontaneous, Reward-Free Self-Evolution via World Knowledge Exploration`]]
 - [ ] [[HF-0421#22-`2604.17696`-`Stratagem Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play`]]
 - [ ] 【防止未授权蒸馏】[[HF-0421#48-`2602.15143`-`Protecting Language Models Against Unauthorized Distillation through Trace Rewriting`]]
-
+##### 更稠密的信号
+- [ ] [[HF-0416#20-SelfDistillationZero-Self-Distillation Zero Self-Revision Turns Binary Rewards into Dense Supervision]]
 ##### 基于熵
 - [ ] [[HF-0414#1-ThePastIsNotPast-The Past Is Not Past Memory-Enhanced Dynamic Reward Shaping]]
 ##### 过程RM/R-Fn
