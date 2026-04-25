@@ -53,9 +53,10 @@
 ##### Image Editing
 - [ ] [[HF-0327#15-Representation Alignment for Just Image Transformers is not Easier than You Think]]
 ###### with reward model
-- [ ] 【使用了NFT做后训练，VLM进行euristic设计】[[HF-0422#10-`2604.19587`-`SmartPhotoCrafter Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing`]]
+- [ ] 【使用了NFT做后训练，基于VLM进行Heuristic RM设计】[[HF-0422#10-`2604.19587`-`SmartPhotoCrafter Unified Reasoning, Generation and Optimization for Automatic Photographic Image Editing`]]
 - [ ] 【训练个HPscore打分器，并且以其作为数据引擎】[[HF-0422#20-`2604.19406`-`HP-Edit A Human-Preference Post-Training Framework for Image Editing`]]
 - [ ] 【显式reasoning的RM, 相当于用LLM给人类偏好对扩写了理由】[[HF-0416#3-RationalRewards-RationalRewards Reasoning Rewards Scale Visual Generation Both Training and Test Time]]
+- [ ] 【经典Reward fn配置：一大堆RM做的大杂烩】
 
 ## AR Video/Image Gen
 
