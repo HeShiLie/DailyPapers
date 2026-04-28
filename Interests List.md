@@ -27,6 +27,8 @@
 - [ ] [[HF-0414#9-PseudoUnification-Pseudo-Unification Entropy Probing Reveals Divergent Information Patterns in Unified Multimodal Models]]
 ## Omni
 - [ ] [[HF-0420#4-`2604.15804`-`Qwen3.5-Omni Technical Report`]]
+### 设计 Omni Reasoning 范式
+- [ ] [[HF-0424#10-`2604.21921`-`Context Unrolling in Omni Models`]]
 
 ---
 
@@ -35,6 +37,7 @@
 
 ### REPA 等
 - [ ] [[HF-0327#15-Representation Alignment for Just Image Transformers is not Easier than You Think]]
+- [ ] 【固定特征空间未必最适合生成目标，可能限制收敛和质量】[[HF-0424#17-`2604.17492`-`Coevolving Representations in Joint Image-Feature Diffusion`]]
 ### 做小
 - [ ] [[HF-0420#8-`2604.16503`-`Motif-Video 2B Technical Report`]]
 
@@ -42,7 +45,8 @@
 - [ ] MixFlow: Mixed Source Distributions Improve Rectified Flows [[HF-0413#25-MixFlow-MixFlow Mixed Source Distributions Improve Rectified Flows]]
 - [ ] [[HF-0420#1-`2604.16044`-`Elucidating the SNR-t Bias of Diffusion Probabilistic Models`]]
 - [ ] [[HF-0327#3-Calibri-Enhancing Diffusion Transformers via Parameter-Efficient Calibration]]
-
+#### 用self-play的手段
+- [ ] [[HF-0424#13-`2604.21904`-`UniGenDet A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection`]]
 ### 做长
 
 ### 做更多Cond
@@ -57,6 +61,7 @@
 - [ ] 【训练个HPscore打分器，并且以其作为数据引擎】[[HF-0422#20-`2604.19406`-`HP-Edit A Human-Preference Post-Training Framework for Image Editing`]]
 - [ ] 【显式reasoning的RM, 相当于用LLM给人类偏好对扩写了理由】[[HF-0416#3-RationalRewards-RationalRewards Reasoning Rewards Scale Visual Generation Both Training and Test Time]]
 - [ ] 【经典Reward fn配置：一大堆RM做的大杂烩】
+- [ ] 【任意长宽比编辑，或许能从中获得捕捉object位置的灵感】[[HF-0424#11-`2604.10268`-`EditCrafter Tuning-free High-Resolution Image Editing via Pretrained Diffusion Model`]]
 
 ## AR Video/Image Gen
 
@@ -218,6 +223,7 @@
 - [ ] 【technich report】[[HF-0331#24-KAT-Coder-V2 Technical Report]]
 - [ ] 【如何给每个工具一个SOP】[[HF-0421#31-`2604.17886`-`Latent Preference Modeling for Cross-Session Personalized Tool Calling`]]
 - [ ] 【Agent as a judge】[[HF-0422#9-`2604.18240`-`AJ-Bench Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation`]]
+- [ ] 【通义出品，写多页web agent的】[[HF-0424#14-`2604.20398`-`WebGen-R1 Incentivizing Large Language Models to Generate Functional and Aesthetic Websites with Reinforcement Learning`]]
 #### 进化(有点像bad case analysis)
 - [ ] [[HF-0422#29-`2604.19341`-`Evaluation-driven Scaling for Scientific Discovery`]]
 - [ ] [[HF-0422#24-`2604.19440`-`What Makes an LLM a Good Optimizer? A Trajectory Analysis of LLM-Guided Evolutionary Search`]]
@@ -243,3 +249,9 @@
 - [ ] [[HF-0327#28-PMT-Plain Mask Transformer for Image and Video Segmentation with Frozen Vision Encoders]]
 - [ ] [[HF-0330#11-`2603.23906`-`GenMask Adapting DiT for Segmentation via Direct Mask`]]
 - [ ] 【免训适配DINOv3到seg】[[HF-0331#33-INSID3-Training-Free In-Context Segmentation with DINOv3]]
+
+# 3D
+## 重建
+### reshooting
+- [ ] [[HF-0424#12-`2604.21915`-`Vista4D Video Reshooting with 4D Point Clouds`]]
+- [ ] 
